@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="hero.css">
     <title>Galerie Urbaine</title>
 </head>
 <body>
@@ -33,6 +34,84 @@
             <h1>40 000 €</h1>
         </div>
         <h2>VALLAURIS (06220)</h2>
+        <div class="container">
+            <div class="carousel">
+              <ul class="slides">
+                <input type="radio" name="radio-buttons" id="img-1" checked />
+                <li class="slide-container">
+                  <div class="slide-image">
+                    <img src="img/alejandra-cifre-gonzalez-ylyn5r4vxcA-unsplash.jpg">
+                  </div>
+                  <div class="carousel-controls">
+                    <label for="img-3" class="prev-slide">
+                      <span>&lsaquo;</span>
+                    </label>
+                    <label for="img-2" class="next-slide">
+                      <span>&rsaquo;</span>
+                    </label>
+                  </div>
+                </li>
+                <input type="radio" name="radio-buttons" id="img-2" />
+                <li class="slide-container">
+                  <div class="slide-image">
+                    <img src="img/john-fornander-y3_AHHrxUBY-unsplash.jpg">
+                  </div>
+                  <div class="carousel-controls">
+                    <label for="img-1" class="prev-slide">
+                      <span>&lsaquo;</span>
+                    </label>
+                    <label for="img-3" class="next-slide">
+                      <span>&rsaquo;</span>
+                    </label>
+                  </div>
+                </li>
+                <input type="radio" name="radio-buttons" id="img-3" />
+                <li class="slide-container">
+                  <div class="slide-image">
+                    <img src="img/lily-tran-0bESYmQLn5M-unsplash copie.jpg">
+                  </div>
+                  <div class="carousel-controls">
+                    <label for="img-2" class="prev-slide">
+                      <span>&lsaquo;</span>
+                    </label>
+                    <label for="img-1" class="next-slide">
+                      <span>&rsaquo;</span>
+                    </label>
+                  </div>
+                </li>
+                <div class="carousel-dots">
+                  <label for="img-1" class="carousel-dot" id="img-dot-1"></label>
+                  <label for="img-2" class="carousel-dot" id="img-dot-2"></label>
+                  <label for="img-3" class="carousel-dot" id="img-dot-3"></label>
+                </div>
+              </ul>
+            </div>
+            <div class="formulaire">  
+                <form id="contact" action="" method="post">
+                  <h3>Contacter ce professionnel</h3>
+                  <h4>Contact us for custom quote</h4>
+                  <fieldset>
+                    <input placeholder="Votre nom et prénom" type="text" tabindex="1" required autofocus>
+                  </fieldset>
+                  <fieldset>
+                    <input placeholder="Votre emails" type="email" tabindex="2" required>
+                  </fieldset>
+                  <fieldset>
+                    <input placeholder="Votre numéro" type="tel" tabindex="3" required>
+                  </fieldset>
+                  <fieldset>
+                    <input placeholder="Votre mot de passe" type="url" tabindex="4" required>
+                  </fieldset>
+                  <fieldset>
+                    <textarea placeholder="Tapez votre message" tabindex="5" required></textarea>
+                  </fieldset>
+                  <fieldset>
+                    <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+                  </fieldset>
+                  <p class="copyright">Designed by <a href="https://colorlib.com" target="_blank" title="Colorlib">Colorlib</a></p>
+                </form>
+              </div>
+          </div>
     </div>
    </main>
 
