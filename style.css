@@ -42,7 +42,7 @@ nav ul {
 }
 
 a img {
-    width: 30%;
+    width: 40%;
     margin-left: 30px;
     margin-top: 10px;
 }
@@ -68,9 +68,33 @@ nav a button {
 }
 
 .prix {
-    width: 50%;
+    width: 40%;
     display: flex;
     justify-content: space-between;
+}
+
+#global {
+    margin-left: 45px;
+}
+
+/* DESCRIPTION */
+
+.description {
+    width: 60%;
+}
+
+.description button {
+    padding: 6px 8px;
+    border: 1px solid #000000;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.ligne {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0;
 }
 
 /* FOOTER */
