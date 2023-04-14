@@ -85,20 +85,33 @@ nav a button {
 
 .description {
     width: 60%;
+<<<<<<< HEAD
   }
 
   .description button {
+=======
+}
+
+.description button {
+>>>>>>> 1e700a9672fb40a334e80cc40d2b6b310284f016
     padding: 6px 8px;
     border: 1px solid #000000;
     background-color: white;
     border-radius: 15px;
+<<<<<<< HEAD
   }
 
   .ligne {
+=======
+}
+
+.ligne {
+>>>>>>> 1e700a9672fb40a334e80cc40d2b6b310284f016
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     padding: 0;
+<<<<<<< HEAD
   }
 
   #paragraphe {
@@ -253,6 +266,8 @@ nav a button {
     margin-right: auto;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 6px;
+=======
+>>>>>>> 1e700a9672fb40a334e80cc40d2b6b310284f016
 }
 
 /* FOOTER */
