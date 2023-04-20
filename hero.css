@@ -18,6 +18,22 @@
     padding: 0px;
 }
 
+/* HERO */
+
+.hero {
+  margin-top: 110px;
+}
+
+.prix {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#global {
+  margin-left: 45px;
+}
+
 /* CAROUSEL */
 
 .carousel {
