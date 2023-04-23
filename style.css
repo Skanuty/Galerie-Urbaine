@@ -61,8 +61,12 @@ nav button {
     border: 1px solid #000000;
     color: black;
     background-color: white;
+<<<<<<< HEAD
     width: 120px;
     height: 35px;
+=======
+    border: white;
+>>>>>>> c3e1986aa1ced947e69c462e50973b775995b09f
 }
 
 .activ {
