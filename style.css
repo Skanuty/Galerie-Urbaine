@@ -1,3 +1,5 @@
+@import url("https://use.typekit.net/faq2eoc.css");
+
 body{
     font-family: 'Halcom';
     padding: 0;
@@ -19,6 +21,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     opacity: 0.8;
+    z-index: 1;
 }
 
 nav ul {
@@ -42,7 +45,7 @@ nav ul {
 }
 
 a img {
-    width: 30%;
+    width: 40%;
     margin-left: 30px;
     margin-top: 10px;
 }
@@ -51,26 +54,238 @@ nav ul a:hover{
     font-weight: bold;
 }
 
-nav a button {
+nav button {
     font-family: halcom, sans-serif;
     font-style: normal;
-    color: aqua;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    color: black;
+    background-color: white;
+    width: 120px;
+    height: 35px;
 }
 
 .activ {
     font-weight: bold;
 }
 
-/* HERO */
+/* DESCRIPTION */
 
-.hero {
-    margin-top: 110px;
+.description {
+    width: 60%;
+    margin-left: 50px;
+  }
+
+  .description button {
+    padding: 6px 8px;
+    border: 1px solid #000000;
+    background-color: white;
+    border-radius: 15px;
+  }
+
+  .ligne {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0;
+  }
+
+  .ligne button {
+    margin-right: 10px;
+  }
+
+  #paragraphe {
+    height: 115px; /* hauteur initiale du paragraphe */
+    overflow: hidden; /* masque le texte qui dépasse */
+  }
+
+  #paragraphe.full {
+    height: auto; /* affiche tout le texte */
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+/* DIAGNOSTICS */
+
+.diagnostics {
+  margin-left: 50px;
 }
 
-.prix {
-    width: 50%;
+.jaune {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+}
+
+.jaune button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 123px;
+    height: 46px;
+    margin-right: 10px;
+    color: white;
+    background: #B7995E;
+    border: white;
+    border-radius: 5px;
+}
+
+/* SCHÉMA */
+
+.schéma {
+    display: flex;
+}
+
+.ges {
+    margin-left: 30px;
+}
+
+.rectangle {
+    width: 50px; 
+    height: 10px;
+}
+
+.energy {
+    display: flex;
+    align-items: center;
+}
+
+.vert-foncé {
+    background: #00B076;
+    border-radius: 6px 0px 0px 6px;
+}
+
+.vert-claire {
+    background: #00C756;
+    margin-left: 3px;
+}
+
+.c {
+    display: flex;
+    width: 50px;
+    height: 41px;
+    background: #00D07D;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 3px;
+}
+
+.b-jaune {
+    background: #FBF200;
+    margin-left: 3px;
+}
+
+.beige {
+    background: #FFBC00;
+    margin-left: 3px;
+}
+
+.orange {
+    background: #FF7D00;
+    margin-left: 3px;
+}
+
+.red {
+    background: #ff0000;
+    border-radius: 0px 6px 6px 0px;
+    margin-left: 3px;
+}
+
+.a {
+    display: flex;
+    width: 50px;
+    height: 41px;
+    background: #98DCFF;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 3px;
+}
+
+.bleu {
+    background: #82B6D4;
+    margin-left: 3px;
+}
+
+.bleu-foncé {
+    background: #7291B3;
+    margin-left: 3px;
+}
+
+.gris {
+    background: #5D6F8F;
+    margin-left: 3px;
+}
+
+.mauve-pale {
+    background: #4F4F73;
+    margin-left: 3px;
+}
+
+.mauve {
+    background: #3C3251;
+    margin-left: 3px;
+}
+
+.violet {
+    background: #2D1636;
+    border-radius: 0px 6px 6px 0px;
+    margin-left: 3px;
+}
+
+/* CONTATC */
+
+.fond {
+    width: 80%;
+    height: 620px;
+    background: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);    border-radius: 6px;
+    display: flex;
+    justify-content: center;}
+
+.fond img {
+  width: 40px;
+  margin-right: 20px;
+}
+
+.adresse {
+  display: flex;
+}
+
+.fond button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 303px;
+  height: 45px;
+  background-color: white;
+  border: 1px solid #B7995E;
+  border-radius: 4px;
+}
+
+.formulaire-contact {
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+.infos-contact {
+  align-items: center;
+  margin-top: 10px;
+}
+
+.géorisques {
+  margin-left: 50px;
+}
+
+.copropriété {
+  margin-left: 50px;
 }
 
 /* FOOTER */
@@ -78,7 +293,7 @@ nav a button {
 footer{
     background-color: #2B2B2B;
     width: 100%;
-    height: 400px;
+    height: 330px;
     margin-top: 20px;
     margin-bottom: 0;
     padding-top: 25px;
@@ -94,6 +309,8 @@ footer{
 .container-style {
     vertical-align: baseline;
     display: flex;
+    margin-left: auto;
+    margin-right: auto;
     justify-content: space-between;
     flex-direction: row;
     align-items: flex-start;
@@ -117,7 +334,7 @@ footer h1{
 #mention {
     position: absolute;
     margin-top: 50px;
-    margin-left: 30px;
+    margin-left: 60px;
     padding-bottom: 0;
 }
 
@@ -125,13 +342,26 @@ footer h1{
     width: 50%;
 }
 
+@media screen and (max-width: 830px) {
+    .schéma {
+        flex-direction: column-reverse;
+    }
+  }
+
 @media screen and (max-width: 1100px) {
     ul {
       font-size: 85%;
       flex-wrap: wrap;
     }
-    li {
+    nav li {
       margin-top: 15px;
       margin-left: 15px;
     }
   }
+
+  @media screen and (max-width: 1260px) {
+    .container {
+      flex-direction: column-reverse;
+    }
+  }
+  

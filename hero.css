@@ -4,6 +4,7 @@
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+  font-family: 'Halcom';
   -moz-font-smoothing: antialiased;
   -o-font-smoothing: antialiased;
 }
@@ -15,6 +16,22 @@
     margin-left: auto;
     margin-right: auto;
     padding: 0px;
+}
+
+/* HERO */
+
+.hero {
+  margin-top: 110px;
+}
+
+.prix {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#global {
+  margin-left: 45px;
 }
 
 /* CAROUSEL */
